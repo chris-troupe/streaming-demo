@@ -1,0 +1,30 @@
+
+button {
+    color: black;
+    border: 1rem solid blue;
+    padding: 3.5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2rem;
+    font-size: 2rem;
+    background-color: lightgray;
+    color: black;
+    }
+
+.buttonSection {
+    flex: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #A3EDED;
+}
+
+

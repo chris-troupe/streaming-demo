@@ -1,0 +1,21 @@
+h6 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.words {
+color: #A3EDED;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+.custom {
+    background-color: blue;
+    max-width: 10rem;
+    height: 20rem;
+    max-height: 30rem;
+}
