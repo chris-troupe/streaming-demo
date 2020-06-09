@@ -13,7 +13,7 @@ Yes! I could make many improvements to my submission including code readability,
 ### Question 3
 What would you do differently if you were allocated more time?
 
-If I were allotted more time I would learn more about the react-router-dom for linking different pages. I would clean up the CSS and optimize the website more for mobile phones. Additionally, I would add all of the additional pages like contact/about/etc. Also, I was a little brazen with my color scheme so I may tone it down a little as well. Finally, I like challenging myself and I think it would have been fun to add functionality to be able to actually play the video. 
+If I were allotted more time I would learn more about the react-router-dom for linking different pages. I would clean up all of the code making it more readable and adding more comments as neccesary. I would also optimize the website more for mobile phones. Additionally, I would add all of the additional pages like contact/about/etc. Also, I was a little brazen with my color scheme so I may tone it down a little as well. Finally, I like challenging myself and I think it would have been fun to add functionality to be able to actually play the video. 
 
 
 
