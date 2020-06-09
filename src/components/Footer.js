@@ -4,6 +4,7 @@ import './Footer.css';
 
 const Footer = () => 
 {
+    // Simple footer that can easily be expanded on
         return(
             <footer id="footer">
                  <div id = "links">
@@ -14,8 +15,6 @@ const Footer = () =>
                     <a href="/help/"> Help</a> |
                     <a href="/manage/"> Manage Account</a>
                 </div>
-                        
-
 
             </footer>
         );

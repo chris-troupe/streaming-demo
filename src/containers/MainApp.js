@@ -6,6 +6,7 @@ import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import Scroll from '../components/Scroll.js'
 
+// Main application
 
 class MainApp extends Component{
     constructor() {
@@ -23,12 +24,13 @@ changeToShows = (event) => {
 }
 
     render() {
-
+        // returns Movie JSX
         if(this.state.navPage === 'movie') {
             return (
                 <MovieApp/> 
             )
         }
+        // returns Series JSX
         else if(this.state.navPage === 'series') {
             return (
                 <SeriesApp/> 

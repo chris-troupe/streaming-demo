@@ -14,7 +14,8 @@ class SeriesApp extends Component {
             searchfield: ''
         }
     }
-
+    
+    // Grab the data and fill the StreamingDetails from this json file
     componentDidMount() { 
     fetch('https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json') 
     .then(response => response.json()) 
@@ -29,6 +30,8 @@ class SeriesApp extends Component {
     render() {
         
         let count = 0;
+        // filter the videos based on a release year > 2010, the video being a series, 
+        // not listing more than 21 entries, and the search bar including the text
         const filteredResults = this.state.StreamingDetails.filter(video => {
             if(video.releaseYear > 2010 
                 && video.programType === 'series' 
@@ -45,9 +48,12 @@ class SeriesApp extends Component {
             )   
         })
 
+        // Loading Screen Implementation
        if(this.state.StreamingDetails.length === 0){
            return (<h1> Loading </h1>) 
-       } else {
+       } 
+       // return if the screen loads
+       else {
             return(
                 <div>
                     <section> 

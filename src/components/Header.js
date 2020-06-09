@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
+    // Simple header componenet, simiilar to given prompt
     return(
         <div className='header'> 
             <nav className="zone sticky">

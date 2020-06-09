@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
-// instead of importing you can receive the list from one layer up
 
+// Passes the appropriate information down to Card using properties
 const CardList = ({StreamingDetails}) => {
 
 const cardComponenet = StreamingDetails.map((element, i) => {

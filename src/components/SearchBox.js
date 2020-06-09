@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SearchBox = ({searchChange}) => {
+    // onChange runs the function to register the event and change the cards
     return (
         <div> 
             <input 

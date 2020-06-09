@@ -3,7 +3,7 @@ import './Card.css';
 
 
 // Destructuring of the props that were passed in
-// <img alt = 'Movietitle' src = {cover} width='200px'/> 
+// using tachoyons renders each card
 const Card = (props) => {
     return (
         <div className = 'custom pa2 tc bg-light-green dib br3 ma1 grow bw2 shadow-5'> 

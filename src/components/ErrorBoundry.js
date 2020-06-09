@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+// this is to notify the user if there was an error
 class ErrorBoundary extends Component{
     constructor(){
         super();

@@ -1,3 +1,5 @@
+// Created by: Chris Troupe 
+// Date Modified: June 9th
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
