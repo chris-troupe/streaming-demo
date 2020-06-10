@@ -8,7 +8,7 @@ const Footer = () =>
         return(
             <footer id="footer">
                  <div id = "links">
-                    <a href="/home/"> Home</a> |
+                    <a href="https://christroupe.github.io/streaming-demo/"> Home</a> |
                     <a href="/terms/"> Terms and Conditions</a> |
                     <a href="/privacy/"> Privacy Policy</a> |
                     <a href="/collection/"> Collection Statement</a> |

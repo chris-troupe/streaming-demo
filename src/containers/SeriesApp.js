@@ -47,6 +47,9 @@ class SeriesApp extends Component {
                 && video.title.toLowerCase().includes(this.state.searchfield.toLowerCase())
             )   
         })
+        // sort the list alphabetically 
+        filteredResults.sort((a,b) => (a.title > b.title) ? 1: -1);
+
 
         // Loading Screen Implementation
        if(this.state.StreamingDetails.length === 0){
