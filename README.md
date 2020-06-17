@@ -1,7 +1,7 @@
 ## Setup instructions
 To setup this project, clone the project at https://github.com/ChrisTroupe/streaming-demo. Then change directories into "streaming-demo" and then type "npm start" to run the application locally. To see the results of the application simply visit https://christroupe.github.io/streaming-demo/.
 
-## Recquired Questions
+## Required Questions
 ### Question 1
 How did you decide on the technical and architectural choices used as part of your solution?
 I used the prompt as much as I could to get an idea for what to do. For example, I used the basic setup of the header, content, and then footer that was provided. I didn't stray too far from the provided website images. Since it was a relatively simple website, I decided to not dig too far into react-router-dom. Due to the time consuming nature as well as the test prompt, I decided to not implement any of the functionality of contact, home, etc. I used tachyons to simplify some CSS coding and tried to implement componenets as clearly as possible. 
